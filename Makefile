@@ -1,15 +1,18 @@
 CFLAGS=-Wall -g
 clean:
-	rm -f ex1 ex3 ex3-without-age ex3-without-age-value \
-	ex7 ex7-without-printf-arg ex7-without-value ex8 \
-	ex8-fixed ex9 ex9-backwards ex10 ex10-lowercase-conversion \
-	ex11 ex11-change-type ex12 ex12-no-null-chars ex13 \
-	ex13-sizeof ex13-wrong-num_states ex14 ex14-strlen \
-	ex14-index-out-of-bounds ex15
+	rm -f ex001 ex003 ex003-without-age ex003-without-age-value \
+	ex007 ex007-without-printf-arg ex007-without-value ex008 \
+	ex008-fixed ex009 ex009-backwards ex010 ex010-lowercase-conversion \
+	ex011 ex011-change-type ex012 ex012-no-null-chars ex013 \
+	ex013-sizeof ex013-wrong-num_states ex014 ex014-strlen \
+	ex014-index-out-of-bounds ex015 ex015-all-pointers ex015-all-arrays \
+	ex015-print-addresses ex015-functions
 all:
-	make ex1 ex3 ex3-without-age ex3-without-age-value \
-	ex7 ex7-without-printf-arg ex7-without-value ex8 \
-	ex8-fixed ex9 ex9-backwards ex10 ex10-lowercase-conversion \
-	ex11 ex11-change-type ex12 ex12-no-null-chars ex13 \
-	ex13-sizeof ex13-wrong-num_states ex14 ex14-strlen \
-	ex14-index-out-of-bounds ex15
+	make ex001 ex003 ex003-without-age ex003-without-age-value \
+	ex007 ex007-without-printf-arg ex007-without-value ex008 \
+	ex008-fixed ex009 ex009-backwards ex010 ex010-lowercase-conversion \
+	ex011 ex011-change-type ex012 ex012-no-null-chars ex013 \
+	ex013-sizeof ex013-wrong-num_states ex014 ex014-strlen \
+	ex014-index-out-of-bounds ex015 ex015-all-pointers ex015-all-arrays \
+	ex015-print-addresses ex015-functions
+
