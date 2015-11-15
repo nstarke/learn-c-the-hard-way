@@ -81,8 +81,6 @@ error:
     return -1;
 }
 
-
-
 int main(int argc, char *argv[]) {
     char *search_strings[argc];
     int arg_index = 0;
